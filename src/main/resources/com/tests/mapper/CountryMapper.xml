@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tests.mapper.CountryMapper">
+
+<!--    <resultMap id="cateResultMap" type="cate">-->
+<!--        <id column="category_id" property="categoryId"/>-->
+<!--        <result column="last_update" property="lastUpdate"/>-->
+<!--    </resultMap>-->
+
+
+
+<!--    <select id="selectAll" resultMap="cateResultMap">-->
+<!--                select-->
+<!--        *-->
+
+<!--                from category;-->
+
+
+
+<!--&lt;!&ndash;    <sql id="cate_colum">&ndash;&gt;-->
+<!--&lt;!&ndash;        category_id as categoryId,Name,last_update as lastUpdate&ndash;&gt;-->
+<!--&lt;!&ndash;    </sql>&ndash;&gt;-->
+<!--&lt;!&ndash;    <select id="selectAll" resultType="com.tests.pojo.Cate">&ndash;&gt;-->
+<!--&lt;!&ndash;        select&ndash;&gt;-->
+<!--&lt;!&ndash;        <include refid="cate_colum"></include>&ndash;&gt;-->
+<!--&lt;!&ndash;        from category;&ndash;&gt;-->
+
+<!--    </select>-->
+
+
+
+<!--    <insert id="add">-->
+<!--    insert into category ( category_id,name,last_update)-->
+<!--    value(#{categoryId},#{name},#{lastUpdate});-->
+<!--    </insert>-->
+
+
+<!--    <update id="update">-->
+<!--        update category-->
+<!--        set-->
+<!--        name=#{name},-->
+<!--        last_update=#{lastUpdate}-->
+<!--        where category_id=#{categoryId};-->
+<!--    </update>-->
+
+
+<!--    <delete id="deleteById">-->
+<!--        delete from category where category_id=#{categoryId};-->
+<!--    </delete>-->
+
+</mapper>
