@@ -26,23 +26,4 @@
     </select>
 
 
-    <!--    <insert id="add">-->
-<!--    insert into category ( category_id,name,last_update)-->
-<!--    value(#{categoryId},#{name},#{lastUpdate});-->
-<!--    </insert>-->
-
-
-<!--    <update id="update">-->
-<!--        update category-->
-<!--        set-->
-<!--        name=#{name},-->
-<!--        last_update=#{lastUpdate}-->
-<!--        where category_id=#{categoryId};-->
-<!--    </update>-->
-
-
-<!--    <delete id="deleteById">-->
-<!--        delete from category where category_id=#{categoryId};-->
-<!--    </delete>-->
-
 </mapper>

@@ -19,13 +19,6 @@
 
 
 
-<!--    <sql id="cate_colum">-->
-<!--        category_id as categoryId,Name,last_update as lastUpdate-->
-<!--    </sql>-->
-<!--    <select id="selectAll" resultType="com.tests.pojo.Cate">-->
-<!--        select-->
-<!--        <include refid="cate_colum"></include>-->
-<!--        from category;-->
 
     </select>
 

@@ -24,13 +24,7 @@ public class Test2 {
 
         SqlSession sqlSession =sqlSessionFactory.openSession();
 
-        //City city = sqlSession.selectOne("getCityById", 1);
 
-//        CityMapper mapper = sqlSession.getMapper(CityMapper.class);
-//        List<City> citys = mapper.selectAll();
-//        for (City city : citys) {
-//            System.out.println(citys);
-//        }
 
         CityMapper cityMapper = sqlSession.getMapper(CityMapper.class);
         City city = cityMapper.getCityWithCountry(6);
